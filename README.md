@@ -1,4 +1,5 @@
 # nixpkgs_Decoupling_build-support-Pre-RFC
+
 Pre-RFC Idea for decoupling build support from pkgs, into a set of higher-order functions.
 
 
@@ -17,7 +18,16 @@ I propose refactoring `build-support` into a deferred, higher-order function lib
  
 By passing `pkgs` as a lazy input argument through a multi-stage evaluation pipeline, we get strict conceptual alignment, eliminate core infinite recursion risks, and optimize evaluation latency.
 
-(Full disclosure, I'm no nix-expert and asked an AI to help put my thoughts/idea's, into a cohesive argument, which is here): feel free to inform me of anything stupid, and how it could be made less stupid.
+(Full disclosure, I'm no nix-expert and asked an AI to help put my thoughts/idea's, into a cohesive argument, which is here): feel free to add to the case for a change like this + inform me of anything incorrect/stupid, and how it could be made less stupid.
+
+
+
+https://github.com/removed-user/nixpkgs_Decoupling_build-support-Pre-RFC
+
+Also, feel free to check out/add to this repo.
+
+### The repo where I'm working on extensions to a few build-support functions, which might be pulled into/become future proof of concept repo, when finished
+https://github.com/removed-user/Nix_Extra-Builders
 
 ---
 
