@@ -85,6 +85,8 @@ Using an open fixpoint (`lib.fix`), the final user-facing package set is materia
 
 ## 3. Conceptual Implementation Example
 
+> Straight-up vibe-coded/probably trash - aside from illustrating the concept
+
 ```nix
 let
   lib = import <nixpkgs/lib>;
