@@ -17,7 +17,7 @@ By passing `pkgs` as a lazy input argument through a multi-stage evaluation pipe
 
 Also, feel free to check out/add to this/these repo(s).
 
-### A centralized repo for "developing" the idea, where we can draw out the issues, ideas, etc. from any discussions. 
+### A centralized repo for "developing" the idea, where we can draw out the issues, ideas, etc. from any discussions; and you could help make this into an Actual RFC.
 
 https://github.com/removed-user/nixpkgs_Decoupling_build-support-Pre-RFC
 
